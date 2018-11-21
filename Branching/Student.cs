@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace Branching
 {
-    class Program
+    public class Student
     {
-        static void Main(string[] args)
+        public readonly string Name { get; }
+        public Student(string name)
         {
-            var student = new Student("test");
-            Console.WriteLine($"hello world {student}");
-
+            Name = Name;
         }
     }
 }
