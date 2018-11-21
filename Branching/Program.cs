@@ -12,6 +12,7 @@ namespace Branching
         {
             var student = new Student("test");
             Console.WriteLine($"hello world {student}");
+            Console.WriteLine($"hello world {student}");
 
         }
     }
