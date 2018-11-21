@@ -11,8 +11,8 @@ namespace Branching
         static void Main(string[] args)
         {
             var student = new Student("test");
-            Console.WriteLine($"hello world {student}");
-            Console.WriteLine($"hello world {student}");
+            Console.WriteLine($"hello world1 {student}");
+            Console.WriteLine($"hello world2 {student}");
 
         }
     }
