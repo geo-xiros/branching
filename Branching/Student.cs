@@ -8,7 +8,7 @@ namespace Branching
 {
     public class Student
     {
-        public readonly string Name { get; }
+        public string Name { get; set; }
         public Student(string name)
         {
             Name = Name;
